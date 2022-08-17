@@ -1,0 +1,51 @@
+# ignore everything (dirs, files, sub-dirs, sub-files)
+/*
+# but do not ignore the .gitignore file
+!.gitignore
+
+# do not ignore fish dir (needed due to the above bullet point)
+!/Lecture 0 - Intro
+!/Lecture 2 - Matlab Intro
+!/Lecture 3 - Bellman Theory
+!/Lecture 4 - VFI
+!/Lecture 5 - Newton's Method
+!/Lecture 6 - Newton's Method Applied
+!/Lecture 7 - Other Methods
+!/Lecture 8 - Interpolation
+!/Lecture 9 - Quadrature
+!/Lecture 10 - Sargent Ljungqvist
+!/Lecture 11 - NCG
+!/Lecture 11 - NCG/NCG Code
+!/Lecture 12 - CGE
+!/Lecture 13 - GMM
+!/Lecture 13 - GMM/FittingFirmSize
+!/Lecture 14 - Simulation Estimation
+!/Lecture 15 - Dynamic Discrete Choice Estimation
+!/Lecture 16 - MCMC
+!/Lecture 17 - Likelihoods and Filtering
+
+# ignore files and sub dirs in the /fish directory
+/Lecture 0 - Intro/*
+/Lecture 2 - Matlab Intro/*
+/Lecture 3 - Bellman Theory/*
+/Lecture 4 - VFI/*
+/Lecture 5 - Newton's Method/*
+/Lecture 6 - Newton's Method Applied/*
+/Lecture 7 - Other Methods/*
+/Lecture 8 - Interpolation/*
+/Lecture 9 - Quadrature/*
+/Lecture 10 - Sargent Ljungqvist/*
+/Lecture 11 - NCG/*
+/Lecture 11 - NCG/NCG Code/*
+/Lecture 12 - CGE/*
+/Lecture 13 - GMM/*
+/Lecture 13 - GMM/FittingFirmSize/*
+/Lecture 14 - Simulation Estimation/*
+/Lecture 15 - Dynamic Discrete Choice Estimation/*
+/Lecture 16 - MCMC/*
+/Lecture 17 - Likelihoods and Filtering/*
+
+# but do not ignore the config.fish file
+!/Lecture 0 - Intro/*.pdf
+!/Lecture 0 - Intro/*.png
+!/Lecture 0 - Intro/*.tex
