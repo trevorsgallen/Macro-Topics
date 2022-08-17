@@ -6,10 +6,12 @@
 # do not ignore fish dir (needed due to the above bullet point)
 !/Lecture 0 - Intro
 !/Lecture 1 - The Labor-Leisure Tradeoff
+!/Lecture 2 - The Intertemporal Tradeoff
 
 # ignore files and sub dirs in the /fish directory
 /Lecture 0 - Intro/*
 /Lecture 1 - The Labor-Leisure Tradeoff/*
+/Lecture 2 - The Intertemporal Tradeoff/*
 
 # but do not ignore the config.fish file
 !/Lecture 0 - Intro/*.pdf
@@ -19,3 +21,8 @@
 !/Lecture 1 - The Labor-Leisure Tradeoff/*.pdf
 !/Lecture 1 - The Labor-Leisure Tradeoff/*.png
 !/Lecture 1 - The Labor-Leisure Tradeoff/*.tex
+
+!/Lecture 2 - The Intertemporal Tradeoff/*.pdf
+!/Lecture 2 - The Intertemporal Tradeoff/*.png
+!/Lecture 2 - The Intertemporal Tradeoff/*.tex
+!/Lecture 2 - The Intertemporal Tradeoff/*.nb
