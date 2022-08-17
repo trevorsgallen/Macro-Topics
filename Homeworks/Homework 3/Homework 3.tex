@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#3: Growth and Intertemporal Tradeoff} \\ \small Econ 590: Current Topics in Macro \\ \small Due at 11:59 p.m., Friday of Third Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+\textbf{Choose one of these prompts to respond to.  I ask that you respond to the prompt you \emph{disagree} with.  E.g. if you think there should be more immigration in the U.S., make the strongest case \emph{against} immigration.  If you think there should be less, state the strongest case \emph{for} immigration.  }\\
+
+\section*{For: Increased Immigration in the United States}
+Please write a page trying to convince someone \emph{not on purely moral grounds} to increase immigration in the United States.  Your argument should use cited facts, either from the lecture or from outside the lecture (hyperlink is fine).  Target Audience: a US President opposed to immigration but open to facts.\\
+\ \\
+
+\section*{Against: decreased immigration in the United States}
+Please write a page trying to convince someone \emph{not on purely moral grounds} to decrease or halt immigration in the United States.  Your argument should use cited facts, either from the lecture or from outside the lecture  (hyperlink is fine).  Target Audience: a liberal/libertarian who only sees benefit from immigration.\\
+\ \\
+
+
+\end{document}

@@ -1,0 +1,132 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#6: Government Debt} \\ \small Econ 590: Current Topics in Macro \\ \small Due at  11:59 p.m., Friday of Sixth Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+
+\section*{Monetary Policy}
+\begin{itemize}
+\item Choose a country that has defaulted (or restructured debt) in the recent past (see two tables below for some options)
+\item Find historical data on its debt, GDP, exchange rates, imports, exports
+\item Plot them and analyze them, along with any other interesting outcomes you might think of to look at
+\item Summarize the effects of default: is there clear loss?  Gain?  Does it seem like a good idea or impossible to avoid? 
+\end{itemize}
+
+\begin{table}
+\centering
+\begin{tabular}{lccc}
+\hline
+\multicolumn{2}{c}{Recent Past (1976-1989)}\\
+\hline\hline
+Country & Year of Default \\
+\hline
+Poland & 1981\\
+Romania & 1981\\
+Serbia/Yugoslavia & 1983\\
+Turkey & 1978\\
+Argentina & 1982\\
+Bolivia & 1980\\
+Brazil & 1983\\
+Chile & 1983\\
+Costa Rica & 1983\\
+Cuba & 1982\\
+Dominican Republic & 1982\\
+Ecuador & 1982\\
+Honduras & 1981\\
+Mexico & 1982 (close in 1994)\\
+Nicaragua & 1980\\
+Panama & 1982\\
+Paraguay & 1986\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\centering
+\begin{tabular}{lccc}
+\hline
+\multicolumn{2}{c}{Recent Past (1998-2004}\\
+\hline\hline
+Country & Year of Default \\
+\hline
+Moldova & 2002\\
+Russia & 1998\\
+Ukraine & 1998, 2000\\
+Argentina & 2001, 2014\\
+Dominica & 2003\\
+Ecuador & 1999\\
+Grenada & 2004\\
+Paraguay & 2003\\
+Cote d'Ivoire & 2001\\
+Gabon & 1999, 2002\\
+Seychelles & 2002\\
+Indonesia & 1999\\
+Pakistan & 1999\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+\end{document}

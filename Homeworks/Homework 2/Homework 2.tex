@@ -1,0 +1,83 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#2: Growth and Intertemporal Tradeoff} \\ \small Econ 590: Current Topics in Macro \\ \small Due at 11:59 p.m., Friday of Second Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+(1) Read Hall, Jones, and Klenow (2020)\\
+
+(2)  Evaluate the following statement, in the context of our Intertemporal Coronavirus Tradeoff lecture:  
+\begin{quote}
+\noindent
+The government should and does put a lower value on the deaths of older people, because a loss of an older life is a loss of fewer total life-years.  For instance, in determining public policy, the government should and does value the life of a healthy newborn more than a terminal cancer patient with two weeks left to live.
+\end{quote}  
+Note that there are two pieces to this statement: the first is a moral/normative question of ``should."  The second is a factual question: does the government do this?   There are no ``right" answers to the first, but your evaluation should touch on the costs and benefits of whatever position you take.  \\
+\ \\
+If you disagree with the value of statistical life, you should offer an alternative framework with which the government can make decisions.  While the framework could be mathematical, like the value of statistical life, it could alternatively take the form of a decision tree, which itself is easily formalizable into mathematical optimization.  You should clearly explain the costs and benefits of your alternative framework.\ \\
+\\
+If you agree with the value of statistical life such as in Hall, Jones and Klenow, you should clearly address if there are limits to your framework.  For instance, women in the US live 6.6\% longer than men: should their lives be valued more highly?  (If yes, what about minorities with lower life expectancies? If no, why does the VSL break down, and are there ways to rectify it?\\
+
+You will be graded on how clear and coherent your answer to the question is.\\
+
+\end{document}

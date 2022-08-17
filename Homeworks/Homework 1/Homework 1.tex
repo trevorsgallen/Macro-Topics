@@ -1,0 +1,84 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#1: GDP} \\ \small Econ 590: Current Topics in Macro \\ \small Due at  11:59 p.m. EDT of Friday, First Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+(1). Pick a country of interest to you that no more than one other person in the class picks.\footnote{If more than two people pick the country, all parties lose one point out of twenty.  Coordinate/equilibrate however you wish.  Coordination and the use of discussion is part of the homework.}\\
+\ \\
+(2) Write one to two pages (excluding any figures or tables) about the path of GDP in that country over time.  Answer the question: ``Have GDP measurements accurately reflected happiness or progress in that country over time?"  A good argument might include references to other aggregates and data (employment, investment, export/imports, consumption, happiness data, etc.).\\
+\ \\
+You will be graded on how clear your answer to the question is.   This means not only should you reference data, but the data should be in such a format that your argument is clear (e.g. a clear figure or set of figures that tells a tale).  \\
+\ \\
+Things to remember:
+\begin{itemize}
+\item Don't repeat yourself unnecessarily
+\item Figures $>$ tables
+\item Your own data analysis $>>$ a figure copied/pasted from online
+\item A well-argued or interesting point is king
+\item Being succinct and clear is crucial
+\item Don't repeat yourself unnecessarily
+\end{itemize}
+
+\end{document}

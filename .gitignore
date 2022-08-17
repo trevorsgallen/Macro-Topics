@@ -5,6 +5,7 @@
 
 # do not ignore fish dir (needed due to the above bullet point)
 !/Syllabus
+!/Homeworks
 !/Lecture 0 - Intro
 !/Lecture 1 - The Labor-Leisure Tradeoff
 !/Lecture 2 - The Intertemporal Tradeoff
@@ -14,6 +15,13 @@
 /Lecture 0 - Intro/*
 /Lecture 1 - The Labor-Leisure Tradeoff/*
 /Lecture 2 - The Intertemporal Tradeoff/*
+/Homeworks/Homework 1/*
+/Homeworks/Homework 2/*
+/Homeworks/Homework 3/*
+/Homeworks/Homework 4/*
+/Homeworks/Homework 5/*
+/Homeworks/Homework 6/*
+/Homeworks/Homework 7/*
 
 # but do not ignore the config.fish file
 !/Syllabus/*.pdf
@@ -30,3 +38,19 @@
 !/Lecture 2 - The Intertemporal Tradeoff/*.png
 !/Lecture 2 - The Intertemporal Tradeoff/*.tex
 !/Lecture 2 - The Intertemporal Tradeoff/*.nb
+
+!/Homeworks/Homework 1/*.pdf
+!/Homeworks/Homework 2/*.pdf
+!/Homeworks/Homework 3/*.pdf
+!/Homeworks/Homework 4/*.pdf
+!/Homeworks/Homework 5/*.pdf
+!/Homeworks/Homework 6/*.pdf
+!/Homeworks/Homework 7/*.pdf
+!/Homeworks/Homework 1/*.tex
+!/Homeworks/Homework 2/*.tex
+!/Homeworks/Homework 3/*.tex
+!/Homeworks/Homework 4/*.tex
+!/Homeworks/Homework 5/*.tex
+!/Homeworks/Homework 6/*.tex
+!/Homeworks/Homework 7/*.tex
+

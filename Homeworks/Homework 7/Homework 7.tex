@@ -1,0 +1,81 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#7: Socialism vs. Capitalism} \\ \small Econ 590: Current Topics in Macro \\ \small Due at  11:59 p.m., Friday of Seventh Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+
+\section*{Socialism and Capitalism}
+ In the too-grandiose ``Socialism vs. Capitalism" lecture, I made a few claims.  Broadly speaking:
+\begin{itemize}
+\item Socialism, defined by state ownership of the means of production, borders on irrelevant (is not a competitive economic system)
+\item That brand of socialism appeared to be significantly inefficient, not only due to the incentives capitalism brings to bear (which we focus on in modern discourse) but because a major issue with socialist firms was the soft budget constraint (which we now ignore)
+\item While people jointly attack the modern age as both capitalist and terrible, it seems like life just keeps getting better: more respect for human (and now even animal!) rights, massive declines in slavery, increase in average intellectual faculties, longer and happier lifespans, etc. etc.  If the current age is as capitalist as detractors claim, then (I claim) it has much to commend it.
+\item The ``modern"  ``socialism vs capitalism" debate is really just an embarrassing distraction: and seems lackluster in comparison.  I claim it's really just a comparison between two market economies, one of which might regulate a little more and transfer a little more (a few percents of GDP).  But it's no longer a debate between economic systems, but by mild degrees of government involvement.
+\end{itemize} 
+
+The issue is so very, very large, that my arguments surely were gaping.  Why am I wrong? What evidence did I miss?   
+
+
+\end{document}
