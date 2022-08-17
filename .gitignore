@@ -4,16 +4,20 @@
 !.gitignore
 
 # do not ignore fish dir (needed due to the above bullet point)
+!/Syllabus
 !/Lecture 0 - Intro
 !/Lecture 1 - The Labor-Leisure Tradeoff
 !/Lecture 2 - The Intertemporal Tradeoff
 
 # ignore files and sub dirs in the /fish directory
+/Syllabus/*
 /Lecture 0 - Intro/*
 /Lecture 1 - The Labor-Leisure Tradeoff/*
 /Lecture 2 - The Intertemporal Tradeoff/*
 
 # but do not ignore the config.fish file
+!/Syllabus/*.pdf
+
 !/Lecture 0 - Intro/*.pdf
 !/Lecture 0 - Intro/*.png
 !/Lecture 0 - Intro/*.tex
