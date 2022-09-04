@@ -9,12 +9,15 @@
 !/Lecture 0 - Intro
 !/Lecture 1 - The Labor-Leisure Tradeoff
 !/Lecture 2 - The Intertemporal Tradeoff
+!/Lecture 3 - Understanding Immigration
 
 # ignore files and sub dirs in the /fish directory
 /Syllabus/*
 /Lecture 0 - Intro/*
 /Lecture 1 - The Labor-Leisure Tradeoff/*
 /Lecture 2 - The Intertemporal Tradeoff/*
+/Lecture 3 - Understanding Immigration/*
+
 /Homeworks/Homework 1/*
 /Homeworks/Homework 2/*
 /Homeworks/Homework 3/*
@@ -38,6 +41,11 @@
 !/Lecture 2 - The Intertemporal Tradeoff/*.png
 !/Lecture 2 - The Intertemporal Tradeoff/*.tex
 !/Lecture 2 - The Intertemporal Tradeoff/*.nb
+
+!/Lecture 3 - Understanding Immigration/*.pdf
+!/Lecture 3 - Understanding Immigration/*.png
+!/Lecture 3 - Understanding Immigration/*.tex
+!/Lecture 3 - Understanding Immigration/*.nb
 
 !/Homeworks/Homework 1/*.pdf
 !/Homeworks/Homework 2/*.pdf
