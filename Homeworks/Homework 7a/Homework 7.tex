@@ -1,0 +1,82 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in, paperwidth=5.5in, paperheight=8.5in]{geometry}
+%\usepackage{geometry}
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{natbib}
+
+\usepackage{hyperref}
+\usepackage{hypcap}
+\usepackage{tikz}
+%\usepackage{mdframed}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{enumerate}
+\usepackage{ifthen}
+\usepackage{environ}
+
+\makeatletter
+\NewEnviron{solution}[1][true]{
+  \gdef\@tmp{#1}
+  \ifthenelse{\boolean{#1}}{\par{ \textcolor{red}{\\ \textbf{Suggested Solution:}}\\}\par\BODY}{\ignorespaces}
+}[\ifthenelse{\boolean{\@tmp}}{}{\ignorespacesafterend}]
+\makeatother    
+
+
+\newcommand{\solon}{true}
+
+\bibpunct{(}{)}{,}{a}{}{;}
+
+\hypersetup{
+colorlinks=true
+}
+\parindent 0in
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy} 
+
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+%adjustment of page parameters
+\renewcommand{\baselinestretch}{1.50} % line spacing is set 1.5
+\setlength{\textheight}{8.8in} \setlength{\textwidth}{6.3in}
+\setlength{\oddsidemargin}{0.2in} \setlength{\topmargin}{-0.30in}
+\setlength{\footnotesep}{10.0pt}
+\setlength\parindent{0pt}
+\title{{\Large \bf Homework \#7: Socialism vs. Capitalism} \\ \small Econ 590: Current Topics in Macro \\ \small Due at  11:59 p.m., Friday of Seventh Week}
+\date{}
+\usepackage{ifthen}
+\usepackage{environ}
+
+
+\usepackage{accsupp}
+
+
+\begin{document}
+\maketitle
+ 
+\noindent
+
+\section*{Student Loan Debt Forgiveness}
+In the student debt forgiveness lecture I roughly:
+\begin{itemize}
+\item Gave a view on what's happened to the student debt in relation to all debt
+\item Talked about the cost (up) vs benefits (flat)
+\item Talked about who owes student debt
+\item Talked about why we might want to help debtholders (humanitarian, economic)/why student debt is special 
+\item Discussed the labor and entrepreneurial side
+\item Discussed inflation and family formation side
+\end{itemize}
+What was the biggest argument/piece of information the lecture was missing, either in favor or against?  
+
+
+\end{document}
