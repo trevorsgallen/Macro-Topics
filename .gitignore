@@ -1,0 +1,32 @@
+ # ignore everything (dirs, files, sub-dirs, sub-files)
+/*
+
+# but do not ignore the .gitignore file
+!.gitignore
+
+# do not ignore dirs (needed due to the above bullet point)
+!/Syllabus
+!/Homeworks
+
+# ignore files and sub dirs
+/Syllabus/*
+#/Slides/*
+/Homeworks/Homework 1/*
+/Homeworks/Homework 2/*
+/Homeworks/Homework 3/*
+/Homeworks/Homework 4/*
+/Homeworks/Homework 5/*
+/Homeworks/Homework 6/*
+/Homeworks/Homework 7/*
+/Homeworks/Homework 7a/*
+
+# but do not ignore the config.fish file
+!/Homeworks/Homework 1/Homework 1.pdf
+#!/Homeworks/Homework 2/Homework 2.pdf
+#!/Homeworks/Homework 3/Homework 3.pdf
+#!/Homeworks/Homework 4/Homework 4.pdf
+#!/Homeworks/Homework 5/Homework 5.pdf
+#!/Homeworks/Homework 6/Homework 6.pdf
+#!/Homeworks/Homework 7/Homework 7.pdf
+
+!/Syllabus/*.pdf
