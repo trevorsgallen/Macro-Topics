@@ -1,16 +1,68 @@
- # ignore everything (dirs, files, sub-dirs, sub-files)
+ # First command is to ignore everything
 /*
 
-# but do not ignore the .gitignore file
+# But of course we need the gitignore file!
 !.gitignore
 
-# do not ignore dirs (needed due to the above bullet point)
+#Now that we've ignored everything, tell Git what not to ignore
 !/Syllabus
 !/Homeworks
+!/Lecture 0 - Intro
+!/Lecture 1 - Macroeconomic Aggregates
+#!/Lecture 2 - The Labor-Leisure Tradeoff
+#!/Lecture 3 - The Intertemporal Tradeoff
+#!/Lecture 4 - Growth
+#!/Lecture 5 - Understanding Immigration
+#!/Lecture 6 - Robots and Automation
+#!/Lecture 7 - Inequality
+#!/Lecture 8 - Cryptocurrency
+#!/Lecture 8 - Social Safety Net and Fiscal Policy
+#!/Lecture 9 - UBI
+#!/Lecture 10 - Monetary Policy Basics
+#!/Lecture 11 - MMT
+#!/Lecture 12 - Crypto
+#!/Lecture 13 - Government Debt
+#!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
 
-# ignore files and sub dirs
+#But for each thing we don't ignore, we need to re-ignore the insides
 /Syllabus/*
-#/Slides/*
+/Lecture 0 - Intro/*
+/Lecture 1 - Macroeconomic Aggregates/*
+#/Lecture 2 - The Labor-Leisure Tradeoff/*
+#/Lecture 3 - The Intertemporal Tradeoff/*
+#/Lecture 4 - Growth/*
+#/Lecture 5 - Understanding Immigration/*
+#/Lecture 6 - Robots and Automation/*
+#/Lecture 7 - Inequality/*
+#/Lecture 8 - Cryptocurrency/*
+#/Lecture 8 - Social Safety Net and Fiscal Policy/*
+#/Lecture 9 - UBI/*
+#/Lecture 10 - Monetary Policy Basics/*
+#/Lecture 11 - MMT/*
+#/Lecture 12 - Crypto/*
+#/Lecture 13 - Government Debt/*
+#/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*
+
+
+#But not specific files we want to share on the inside
+!/Lecture 0 - Intro/Introduction.pdf
+!/Lecture 1 - Macroeconomic Aggregates/Macroeconomic Aggregates.pdf
+#!/Lecture 2 - The Labor-Leisure Tradeoff/*.pdf
+#!/Lecture 3 - The Intertemporal Tradeoff/*.pdf
+#!/Lecture 4 - Growth/*.pdf
+#!/Lecture 5 - Understanding Immigration/*.pdf
+#!/Lecture 6 - Robots and Automation/*.pdf
+#!/Lecture 7 - Inequality/*.pdf
+#!/Lecture 8 - Cryptocurrency/*.pdf
+#!/Lecture 8 - Social Safety Net and Fiscal Policy/*.pdf
+#!/Lecture 9 - UBI/*.pdf
+#!/Lecture 10 - Monetary Policy Basics/*.pdf
+#!/Lecture 11 - MMT/*.pdf
+#!/Lecture 12 - Crypto/*.pdf
+#!/Lecture 13 - Government Debt/*.pdf
+#!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*.pdf
+
+
 /Homeworks/Homework 1/*
 /Homeworks/Homework 2/*
 /Homeworks/Homework 3/*
@@ -29,5 +81,5 @@
 !/Homeworks/Homework 5/Homework 5.pdf
 !/Homeworks/Homework 6/Homework 6.pdf
 !/Homeworks/Homework 7/Homework 7.pdf
-
+	
 !/Syllabus/*.pdf
