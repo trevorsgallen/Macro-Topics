@@ -9,7 +9,7 @@
 !/Homeworks
 !/Lecture 0 - Intro
 !/Lecture 1 - Macroeconomic Aggregates
-#!/Lecture 2 - The Labor-Leisure Tradeoff
+!/Lecture 2 - The Labor-Leisure Tradeoff
 #!/Lecture 3 - The Intertemporal Tradeoff
 #!/Lecture 4 - Growth
 #!/Lecture 5 - Understanding Immigration
@@ -28,7 +28,7 @@
 /Syllabus/*
 /Lecture 0 - Intro/*
 /Lecture 1 - Macroeconomic Aggregates/*
-#/Lecture 2 - The Labor-Leisure Tradeoff/*
+/Lecture 2 - The Labor-Leisure Tradeoff/*
 #/Lecture 3 - The Intertemporal Tradeoff/*
 #/Lecture 4 - Growth/*
 #/Lecture 5 - Understanding Immigration/*
@@ -47,7 +47,7 @@
 #But not specific files we want to share on the inside
 !/Lecture 0 - Intro/Introduction.pdf
 !/Lecture 1 - Macroeconomic Aggregates/Macroeconomic Aggregates.pdf
-#!/Lecture 2 - The Labor-Leisure Tradeoff/*.pdf
+!/Lecture 2 - The Labor-Leisure Tradeoff/LaborLecture.pdf
 #!/Lecture 3 - The Intertemporal Tradeoff/*.pdf
 #!/Lecture 4 - Growth/*.pdf
 #!/Lecture 5 - Understanding Immigration/*.pdf
