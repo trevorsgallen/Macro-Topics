@@ -11,7 +11,7 @@
 !/Lecture 1 - Macroeconomic Aggregates
 !/Lecture 2 - The Labor-Leisure Tradeoff
 !/Lecture 3 - The Intertemporal Tradeoff
-#!/Lecture 4 - Growth
+!/Lecture 4 - Growth
 #!/Lecture 5 - Understanding Immigration
 #!/Lecture 6 - Robots and Automation
 #!/Lecture 7 - Inequality
@@ -30,7 +30,7 @@
 /Lecture 1 - Macroeconomic Aggregates/*
 /Lecture 2 - The Labor-Leisure Tradeoff/*
 /Lecture 3 - The Intertemporal Tradeoff/*
-#/Lecture 4 - Growth/*
+/Lecture 4 - Growth/*
 #/Lecture 5 - Understanding Immigration/*
 #/Lecture 6 - Robots and Automation/*
 #/Lecture 7 - Inequality/*
@@ -49,7 +49,7 @@
 !/Lecture 1 - Macroeconomic Aggregates/Macroeconomic Aggregates.pdf
 !/Lecture 2 - The Labor-Leisure Tradeoff/LaborLecture.pdf
 !/Lecture 3 - The Intertemporal Tradeoff/The Intertemporal Tradeoff.pdf
-#!/Lecture 4 - Growth/*.pdf
+!/Lecture 4 - Growth/Crash Course in Growth Theory.pdf
 #!/Lecture 5 - Understanding Immigration/*.pdf
 #!/Lecture 6 - Robots and Automation/*.pdf
 #!/Lecture 7 - Inequality/*.pdf
