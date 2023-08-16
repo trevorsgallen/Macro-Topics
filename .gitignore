@@ -13,7 +13,7 @@
 !/Lecture 3 - The Intertemporal Tradeoff
 !/Lecture 4 - Growth
 !/Lecture 5 - Understanding Immigration
-#!/Lecture 6 - Robots and Automation
+!/Lecture 6 - Robots and Automation
 #!/Lecture 7 - Inequality
 #!/Lecture 8 - Cryptocurrency
 #!/Lecture 8 - Social Safety Net and Fiscal Policy
@@ -32,7 +32,7 @@
 /Lecture 3 - The Intertemporal Tradeoff/*
 /Lecture 4 - Growth/*
 /Lecture 5 - Understanding Immigration/*
-#/Lecture 6 - Robots and Automation/*
+/Lecture 6 - Robots and Automation/*
 #/Lecture 7 - Inequality/*
 #/Lecture 8 - Cryptocurrency/*
 #/Lecture 8 - Social Safety Net and Fiscal Policy/*
@@ -51,7 +51,7 @@
 !/Lecture 3 - The Intertemporal Tradeoff/The Intertemporal Tradeoff.pdf
 !/Lecture 4 - Growth/Crash Course in Growth Theory.pdf
 !/Lecture 5 - Understanding Immigration/Immigration.pdf
-#!/Lecture 6 - Robots and Automation/*.pdf
+!/Lecture 6 - Robots and Automation/*.pdf
 #!/Lecture 7 - Inequality/*.pdf
 #!/Lecture 8 - Cryptocurrency/*.pdf
 #!/Lecture 8 - Social Safety Net and Fiscal Policy/*.pdf
