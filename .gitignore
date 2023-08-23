@@ -19,7 +19,7 @@
 !/Lecture 8 - Social Safety Net and Fiscal Policy
 !/Lecture 9 - UBI
 !/Lecture 10 - Monetary Policy Basics
-#!/Lecture 11 - MMT
+!/Lecture 11 - MMT
 #!/Lecture 12 - Crypto
 #!/Lecture 13 - Government Debt
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
@@ -38,7 +38,7 @@
 /Lecture 8 - Social Safety Net and Fiscal Policy/*
 /Lecture 9 - UBI/*
 /Lecture 10 - Monetary Policy Basics/*
-#/Lecture 11 - MMT/*
+/Lecture 11 - MMT/*
 #/Lecture 12 - Crypto/*
 #/Lecture 13 - Government Debt/*
 #/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*
@@ -57,7 +57,7 @@
 !/Lecture 8 - Social Safety Net and Fiscal Policy/FiscalPolicy.pdf
 !/Lecture 9 - UBI/UBI.pdf
 !/Lecture 10 - Monetary Policy Basics/*.pdf
-#!/Lecture 11 - MMT/*.pdf
+!/Lecture 11 - MMT/MMT.pdf
 #!/Lecture 12 - Crypto/*.pdf
 #!/Lecture 13 - Government Debt/*.pdf
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*.pdf
