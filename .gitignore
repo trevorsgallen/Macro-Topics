@@ -23,6 +23,7 @@
 #!/Lecture 12 - Crypto
 #!/Lecture 13 - Government Debt
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
+!/Bonus Lecture 2023 - Housing
 
 #But for each thing we don't ignore, we need to re-ignore the insides
 /Syllabus/*
@@ -41,7 +42,7 @@
 /Lecture 11 - MMT/*
 #/Lecture 12 - Crypto/*
 #/Lecture 13 - Government Debt/*
-#/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*
+/Bonus Lecture 2023 - Housing/*
 
 
 #But not specific files we want to share on the inside
@@ -61,6 +62,7 @@
 #!/Lecture 12 - Crypto/*.pdf
 #!/Lecture 13 - Government Debt/*.pdf
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*.pdf
+!/Bonus Lecture 2023 - Housing/Bonus*.pdf
 
 
 /Homeworks/Homework 1/*
