@@ -20,7 +20,7 @@
 !/Lecture 9 - UBI
 !/Lecture 10 - Monetary Policy Basics
 !/Lecture 11 - MMT
-#!/Lecture 12 - Crypto
+!/Lecture 12 - Crypto
 #!/Lecture 13 - Government Debt
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
 !/Bonus Lecture 2023 - Housing
@@ -40,7 +40,7 @@
 /Lecture 9 - UBI/*
 /Lecture 10 - Monetary Policy Basics/*
 /Lecture 11 - MMT/*
-#/Lecture 12 - Crypto/*
+/Lecture 12 - Crypto/*
 #/Lecture 13 - Government Debt/*
 /Bonus Lecture 2023 - Housing/*
 
@@ -59,7 +59,7 @@
 !/Lecture 9 - UBI/UBI.pdf
 !/Lecture 10 - Monetary Policy Basics/*.pdf
 !/Lecture 11 - MMT/MMT.pdf
-#!/Lecture 12 - Crypto/*.pdf
+!/Lecture 12 - Crypto/Crypto*.pdf
 #!/Lecture 13 - Government Debt/*.pdf
 #!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*.pdf
 !/Bonus Lecture 2023 - Housing/Bonus*.pdf
