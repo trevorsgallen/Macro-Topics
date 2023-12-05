@@ -22,7 +22,7 @@
 !/Lecture 11 - MMT
 !/Lecture 12 - Crypto
 !/Lecture 13 - Government Debt
-#!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
+!/Lecture 14 - Bank Runs and the U.S. Financial Crisis
 !/Bonus Lecture 2023 - Housing
 
 #But for each thing we don't ignore, we need to re-ignore the insides
@@ -42,6 +42,8 @@
 /Lecture 11 - MMT/*
 /Lecture 12 - Crypto/*
 /Lecture 13 - Government Debt/*
+/Lecture 14 - Bank Runs and the U.S. Financial Crisis/Lecture 19 - Bank Runs/*
+/Lecture 14 - Bank Runs and the U.S. Financial Crisis/Lecture 20 - Financial Crisis/*
 /Bonus Lecture 2023 - Housing/*
 
 
@@ -61,7 +63,8 @@
 !/Lecture 11 - MMT/MMT.pdf
 !/Lecture 12 - Crypto/Crypto*.pdf
 !/Lecture 13 - Government Debt/Lecture 13 - Government Debt.pdf
-#!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/*.pdf
+!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/Lecture 14a - Bank Runs.pdf
+!/Lecture 14 - Bank Runs and the U.S. Financial Crisis/Lecture 14b - The Great Financial Crisis.pdf
 !/Bonus Lecture 2023 - Housing/Bonus*.pdf
 
 
